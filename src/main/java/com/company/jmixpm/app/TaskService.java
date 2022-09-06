@@ -2,6 +2,7 @@ package com.company.jmixpm.app;
 
 import com.company.jmixpm.entity.User;
 import io.jmix.core.DataManager;
+import io.jmix.core.Metadata;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

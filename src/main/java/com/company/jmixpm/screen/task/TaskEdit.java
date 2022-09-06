@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 @UiDescriptor("task-edit.xml")
 @EditedEntityContainer("taskDc")
 public class TaskEdit extends StandardEditor<Task> {
+
     @Autowired
     private TaskService taskService;
 
